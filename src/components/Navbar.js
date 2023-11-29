@@ -4,7 +4,12 @@ import { Stack } from '@mui/material';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <Stack>
+      <Link>
+        <img src = {Logo} alt = "logo" style = {{
+          width: '48px', height: '48px', margin: '0 20px'}}/>
+      </Link>
+    </Stack>
   )
 }
 
